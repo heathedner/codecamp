@@ -1,0 +1,166 @@
+body {
+  padding-top: 54px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbarColors{
+  background: #6a49bd;
+}
+.navbarColors a{
+    color: #ff7400;
+    font-weight: bold;
+    font-family: "Orbitron", "Arial", sans-serif;
+    text-shadow: 1px 1px #000;
+}
+.mainHeader{
+  position: static;
+  width: 100%;
+  height: 200px;
+  background-image: url("../assets/img/headerBck.png");
+  font-family: "Orbitron", "Arial", sans-serif;
+  vertical-align: middle;
+}
+
+.section{
+  position: relative;
+  width: 100%;
+}
+.choiceSect{
+  top: 50px;
+  height: 375px;
+}
+.videoSect{
+  height: 450px;
+}
+.bulletSect{
+  top: 50px;
+  height: 300px;
+}
+
+.pinSect{
+  top: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: "Orbitron", "Arial", sans-serif;
+}
+.grey{
+  background-color: #d4d4d4;
+  color: white;
+}
+
+.white{
+  background-color: #fff;
+  color: black;
+}
+
+.headingText{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.htTitle{
+  font-size: 62px;
+}
+.htSubtitle{
+  font-size: 28px;
+}
+
+.choiceContainer{
+width: 60%;
+margin: auto;
+}
+
+.choice{#ff7400;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  float: left;
+}
+
+.choice a{
+  color: inherit;
+  transition: .5s color;
+  text-decoration: none;
+}
+
+.choice a:hover{
+  color: #ff7400;
+}
+.choice img{
+  width: 200px;
+  position: relative;
+  top: 0;
+  transition: 1s top;
+}
+
+.choice img:hover{
+  top: -20px;
+}
+
+.aboutVideoContainer{
+  text-align: center;
+}
+.aboutVideo{
+  width: 500px;
+  height: 300px;
+  margin: 50px 0 10px 0;
+}
+
+.hrAboutVideo {
+  width: 75%;
+  border-color: #414141;
+}
+.aboutBullets{
+  width: 80%;
+  margin: auto;
+}
+
+.bullet{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.bullet img{
+  width: 60px;
+}
+
+.bulletListContainer{
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dropinContainer{
+position: relative;
+top: 50px;
+width: 500px;
+margin: auto;
+border: 2px outset #989898;
+border-radius: 12px;
+box-shadow: 5px 5px 10px #888888;
+padding: 20px;
+transition: 1s box-shadow;
+}
+
+.dropinContainer:hover{
+box-shadow: 5px 5px 10px #864a18;
+}
+
+.formContainer{
+  text-align: center;
+}
+input[type=submit], input[type=file] {
+  cursor: pointer;
+}
+
+.uploadButton{
+  cursor: pointer;
+}
